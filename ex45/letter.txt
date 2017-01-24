@@ -1,0 +1,7 @@
+Hi Ruan, here is your boarding pass.
+
+Destination - HOME
+Flight #:2378AL
+
+If you can answer the following boolean problems correctly
+you’ll be allowed to board the plane.
