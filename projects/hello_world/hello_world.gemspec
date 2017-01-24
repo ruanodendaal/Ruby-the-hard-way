@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.files         = ['lib/hello_world.rb']
-  spec.executables   = ['bin/hello_world']
+  spec.executables   = ['bin/greeter']
   spec.test_files    = ['tests/test_hello_world.rb']
   spec.require_paths = ["lib"]
 end
