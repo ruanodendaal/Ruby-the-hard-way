@@ -194,7 +194,7 @@ class Airport < Scene
 
   def enter()
     puts
-    puts "You have arrived at ex36 airport."
+    puts "You have arrived at a made up airport."
     puts "Last week you were sent a letter,"
     puts "should we open it? Yes or No"
 
