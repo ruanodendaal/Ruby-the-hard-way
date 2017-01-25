@@ -50,14 +50,14 @@ class Clearing < Scene
     print $user_input
     choice = $stdin.gets.chomp.downcase
 
-    if choice == "north"
-      return 'airport'
-    elsif choice == "south"
+    if choice == "south"
       return 'wolf_pack'
-    elsif choice == "east"
-      return 'volcano'
     elsif choice == "west"
       return 'forest_tribe'
+    elsif choice == "north"
+      return 'clearing'
+    elsif choice "west"
+      return 'clearing'
     else
       return 'death'
     end
