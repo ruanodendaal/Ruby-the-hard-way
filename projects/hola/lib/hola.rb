@@ -1,5 +1,3 @@
-require 'hola/translator'
-
 class Hola
 
   def self.hi(language = "english")
@@ -8,3 +6,5 @@ class Hola
     #puts "Hello World!"
   end
 end
+
+require 'hola/translator.rb'

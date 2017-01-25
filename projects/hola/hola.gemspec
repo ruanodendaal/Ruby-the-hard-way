@@ -4,11 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "hola"
-  spec.version       = '1.0'
+  spec.version       = '1.1'
   spec.authors       = ["Ruan Odendaal"]
   spec.email         = ["ruanodendaal@gmail.com"]
-  spec.summary       = %q{Simple 'Hello World' test program.}
-  spec.description   = %q{Longer description of your project.}
+  spec.summary       = %q{Simple 'Hello World' program.}
+  spec.description   = %q{Hello world program that includes a translator when passed a language plus an executable.}
   spec.homepage      = "http://"
   spec.license       = "MIT"
 

@@ -1,2 +1,4 @@
 #!/usr/bin/env ruby
-puts "Hello!"
+
+require 'hola'
+puts Hola.hi(ARGV[0])

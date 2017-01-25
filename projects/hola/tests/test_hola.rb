@@ -1,4 +1,4 @@
-require "./lib/hello_world.rb"
+require "./lib/hola.rb"
 require "test/unit"
 
 class TestNAME < Test::Unit::TestCase
