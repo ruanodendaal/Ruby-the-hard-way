@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "http://"
   spec.license       = "MIT"
 
-  spec.files         = ['lib/hola.rb']
+  spec.files         = ['lib/hola.rb', 'lib/hola/translator.rb']
   spec.executables   = ['greeter']
   spec.test_files    = ['tests/test_hola.rb']
   spec.require_paths = ['lib']
