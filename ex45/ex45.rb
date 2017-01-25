@@ -52,7 +52,7 @@ class Clearing < Scene
 
     if choice == "south"
       return 'wolf_pack'
-    elsif choice == "west"
+    elsif choice == "east"
       return 'forest_tribe'
     elsif choice == "north"
       return 'clearing'
