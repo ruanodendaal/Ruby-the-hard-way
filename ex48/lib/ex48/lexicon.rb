@@ -5,6 +5,7 @@ class Lexicon
   'verb' => ['go', 'kill', 'eat'],
   'stop' => ['the', 'in', 'of'],
   'noun' => ['bear', 'princess'],
+  'hobby' => ['coding', 'skiing', 'golf'],
   'error' => []
 }
 
