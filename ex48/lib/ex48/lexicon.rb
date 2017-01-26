@@ -1,9 +1,3 @@
-# scanner that takes a string of raw input from
-# the user and returns a sentence that's composed
-# of an array of arrays with the (TOKEN, WORD)
-# pairings. If a word isn't part of the lexicon
-# then is should still return the WORD but set
-# the TOKEN to an error token. #TODO
 class Lexicon
 
 @@dictionary = {
@@ -18,7 +12,8 @@ class Lexicon
     sentence = []
     str.split.each { |str|
       pairing = []
-      if str =~ /\d/ #TODO - doesn't like numbers yet
+      # checking for numbers before looking in dictionary
+      if str =~ /\d/
         pairing = ['number', str.to_i]
         sentence.push(pairing)
       else
