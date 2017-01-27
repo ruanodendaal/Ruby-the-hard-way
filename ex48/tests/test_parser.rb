@@ -5,11 +5,17 @@ class TestParser < Test::Unit::TestCase
 
   def test_peek
     assert_equal(Parser.peek([['stop', 'the'],
-                       ['noun', 'bear']]),
-                       'stop')
+                              ['noun', 'bear']]),
+                              'stop')
+    assert_equal(Parser.peek(nil), nil)
   end
 
   def test_match
+    assert_equal(Parser.match([['stop', 'the'],
+                               ['noun', 'bear']], 'stop'),
+                               ['stop', 'the'])
+    assert_equal(Parser.match([['noun', 'bear']], 'stop'), nil)
+    assert_equal(Parser.match(nil, 'stop'), nil)
   end
 
   def test_skip
