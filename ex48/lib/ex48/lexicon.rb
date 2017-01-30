@@ -2,8 +2,8 @@ class Lexicon
 
 @@dictionary = {
   'direction' => ['north', 'south', 'east'],
-  'verb' => ['go', 'kill', 'eat'],
-  'stop' => ['the', 'in', 'of'],
+  'verb' => ['go', 'kill', 'eat', 'run'],
+  'stop' => ['the', 'in', 'of', 'at'],
   'noun' => ['bear', 'princess'],
   'hobby' => ['coding', 'skiing', 'golf'],
   'error' => []
