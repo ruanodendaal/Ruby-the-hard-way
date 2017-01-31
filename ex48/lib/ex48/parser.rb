@@ -14,6 +14,7 @@ class Sentence
     attr_reader :object
 end
 
+
 class Parser
 
   def self.peek(word_list)
