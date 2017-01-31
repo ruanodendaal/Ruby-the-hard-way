@@ -9,7 +9,11 @@ get '/' do
   return 'Hello world'
 end
 
-get '/hello/' do
+get '/hello/:name' do
   greeting = params[:greeting] || "Hi there"
   erb :index, :locals => {'greeting' => greeting}
+end
+
+get '/greet/:name' do
+  "Hello #{params['name']}!"
 end
