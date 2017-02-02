@@ -27,8 +27,10 @@ end
 
 # Post-request - receive & save the uploaded file
 post '/upload/' do
-  File.open('uploads/' + params['myfile'][:filename], "w") do |f|
-    f.write(params['myfile'][:tempfile].read)
+  @filename = params['myfile'][:filename]
+  file = params['myfile'][:tempfile]
+  File.open("uploads/#{@filename}", "w") do |f|
+    f.write(file.read)
   end
-  return "The file was successfully uploaded!"
+  erb :show_image
 end
